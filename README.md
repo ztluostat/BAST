@@ -9,7 +9,7 @@ Luo, Z. T., Sang, H., & Mallick, B. (2021) BAST: Bayesian Additive Regression Sp
 
 `BASTDemo.R`: Demonstration code of BAST
 
-`AralSea.R`: Preprocessing chlorophyll data in Aral Sea for demonstration proposes, following [Niu et al. (2019)](https://github.com/mu2013/Intrinsic-GP-on-complex-constrained-domain)
+`AralSea.R`: Preprocessing chlorophyll data in Aral Sea for demonstration purposes, following [Niu et al. (2019)](https://github.com/mu2013/Intrinsic-GP-on-complex-constrained-domain)
 
 `BASTFun.R`: Implementation and API documentations for main functions of BAST
 
