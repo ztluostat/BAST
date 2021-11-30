@@ -19,7 +19,7 @@ Luo, Z. T., Sang, H., & Mallick, B. (2021) BAST: Bayesian Additive Regression Sp
 
 `aral_data.RData`: Preprocessed data from `AralSea.R`
 
-### Dependecies
+### Dependencies
 
 The code depends on the following `R` packages: `igraph`, `fields`, `FNN`, `mgcv`, `fdaPDE`, `gamair`.
 Please make sure they are installed before running the demo code.
