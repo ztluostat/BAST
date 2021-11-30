@@ -7,7 +7,6 @@ library(igraph)
 library(fields)
 
 # set working directory if necessary
-setwd('D:/Documents/_TAMU/Projects/Github/BAST')
 source('ComplexDomainFun.R')
 source('BASTFun.R')
 

@@ -6,7 +6,6 @@ rm(list=ls())
 library(ggplot2)
 
 # set working directory if necessary
-setwd('D:/Documents/_TAMU/Projects/Github/BAST')
 source('ComplexDomainFun.R')
 
 ### load data ----

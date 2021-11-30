@@ -273,12 +273,12 @@ fitBAST <- function(Y, graph0, init_val, hyperpar, MCMC, BURNIN, THIN, seed = 12
 #' @param mesh Constrained Delaunay triangulation mesh. Should be a \code{mesh.2D} object in package \code{fdaPDE}.
 #'             Required when \code{method == 'soft-mesh'}.
 #' @param return_type Type of returned values. Should be one of the followings.
-#'               \code{'mean'}: Return posterior mean prediction only, stored in a vector of length n_new
-#'               \code{'all'}: Return all posterior prediction samples, stored in a n_new * n_post matrix,
+#'                    \code{'mean'}: Return posterior mean prediction only, stored in a vector of length n_new
+#'                    \code{'all'}: Return all posterior prediction samples, stored in a n_new * n_post matrix,
 #'                             where n_post is the number of posterior samples.
 #' @param weighting Method to obtain soft prediction weights. Should be one of the followings.
-#'               \code{'uniform'}: Uniform weights for all neighbors.
-#'               \code{'distance'}: Inverse distance weighting.
+#'                  \code{'uniform'}: Uniform weights for all neighbors.
+#'                  \code{'distance'}: Inverse distance weighting.
 #' @param cdist_mat Cross geodesic distance matrix of size n_new * n. Required when \code{method == 'soft-knn'}.
 #' @param k_nn Number of neighbors for K nearest neighbors. Required when \code{method == 'soft-knn'}.
 #' @param seed Random seed
