@@ -2,6 +2,7 @@
 Code for Bayesian Additive Regression Spanning Trees.
 
 Reference:
+
 Luo, Z. T., Sang, H., & Mallick, B. (2021) BAST: Bayesian Additive Regression Spanning Trees for Complex Constrained Domain. *Advances in Neural Information Processing Systems 34 (NeurIPS 2021)*
 
 ### Files
