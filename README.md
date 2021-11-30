@@ -15,7 +15,7 @@ Luo, Z. T., Sang, H., & Mallick, B. (2021) BAST: Bayesian Additive Regression Sp
 
 `ComplexDomainFun.R`: Utility functions for complex constrained domains
 
-`FEMFun.R`: Utility functions for triangular meshes, adapted from `R` package [fdaPDE](https://cran.r-project.org/web/packages/fdaPDE/index.html)
+`FEMFun.R`: Utility functions for triangular meshes, modified from `R` package [fdaPDE](https://cran.r-project.org/web/packages/fdaPDE/index.html)
 
 `aral_data.RData`: Preprocessed data from `AralSea.R`
 
