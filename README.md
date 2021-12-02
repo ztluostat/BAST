@@ -1,9 +1,9 @@
 # BAST
-Code for Bayesian Additive Regression Spanning Trees.
+Code for Bayesian Additive Regression Spanning Trees, a tool for nonparametric regression on complex constrained domains.
 
 Reference:
 
-Luo, Z. T., Sang, H., & Mallick, B. (2021) BAST: Bayesian Additive Regression Spanning Trees for Complex Constrained Domain. *Advances in Neural Information Processing Systems 34 (NeurIPS 2021)*
+[Luo, Z. T., Sang, H., & Mallick, B. (2021) BAST: Bayesian Additive Regression Spanning Trees for Complex Constrained Domain. *Advances in Neural Information Processing Systems 34 (NeurIPS 2021)*](https://proceedings.neurips.cc/paper/2021/hash/00b76fddeaaa7d8c2c43d504b2babd8a-Abstract.html)
 
 ### Files
 
@@ -24,3 +24,6 @@ Luo, Z. T., Sang, H., & Mallick, B. (2021) BAST: Bayesian Additive Regression Sp
 The code depends on the following `R` packages: `igraph`, `fields`, `FNN`, `mgcv`, `fdaPDE`, `gamair`.
 Please make sure they are installed before running the demo code.
 
+### Future development
+
+A more efficient version using `Rcpp` is under active development.
